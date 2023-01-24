@@ -294,8 +294,8 @@ body {
   justify-content: space-between;
 }
 .titulos .container-nosotros img {
-  height: 20rem;
-  width: 20rem;
+  height: 10rem;
+  width: 25rem;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -1367,11 +1367,14 @@ body .copy span .span {
   .informacion .container-informacion .informacion-item p {
     font-size: 1.7rem;
   }
+  .titulos .container-nosotros img {
+    margin-top: 2rem;
+  }
   .titulos .container-nosotros .textos-nosotros p {
     width: 90%;
   }
   .titulos .container-nosotros .imagen-nosotros img {
-    height: 35rem;
+    height: 38rem;
   }
   .swiper2 .container__item__hover {
     height: 4rem;
