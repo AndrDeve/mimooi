@@ -1330,7 +1330,7 @@ body .copy span .span {
 }
 @media (max-width: 500px) {
   header .menu .menu__container .logo {
-    height: 8rem;
+    height: 9rem;
     width: 18rem;
   }
   .menu .menu__container .menu__links {
