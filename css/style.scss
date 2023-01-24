@@ -13,9 +13,9 @@
 
 //variables colores
 $dorado:#c39e2e;
-$verde:#a44891;
-$verde-claro:#54582f;
-$verde-textos:#2d5a38;
+$rosado:#a44891;
+$rosado-claro:#54582f;
+$rosado-textos:#2d5a38;
 
 
 html{
@@ -33,7 +33,7 @@ html{
     }
     
     &::-webkit-scrollbar-thumb{ // color barra scroll
-        background: $verde;
+        background: $rosado;
     }
 }
 
@@ -64,7 +64,7 @@ body{
     left: 0;
     z-index: 4000;
     background-color: #ffffff;
-    color: $verde;
+    color: $rosado;
     border-bottom: 1px solid $dorado;
 }
 
@@ -88,7 +88,7 @@ body{
         padding: 0 0.2rem;
         
         a{
-            color: $verde;
+            color: $rosado;
 
             &:hover{
                 transform: scale(1.05);
@@ -120,7 +120,7 @@ body{
 
 
 .menu__link{
-     color: $verde;
+     color: $rosado;
      text-decoration: none;
      padding: 0 20px 0 20px;
      display: flex;
@@ -162,7 +162,7 @@ body{
 }
 
 .menu__link--inside:hover{
-    background-color: $verde;
+    background-color: $rosado;
     color: #ffffff;
 }
 
@@ -255,7 +255,7 @@ body{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     &.swiper-pagination-bullet-active{
-        background: $verde;
+        background: $rosado;
       }
 }
 
@@ -270,21 +270,22 @@ body{
         justify-content: space-between;
 
         .informacion-item{
-            border: 1px solid $dorado;
+            border: 1px solid $rosado;
             width: 30%;
             // margin: 0 5rem;
             padding: 3rem 2rem;
             flex-wrap: wrap;
+            border-radius: 10% 1% 10% 1%;
 
             .bx{
-                color: $dorado;
+                color: $rosado;
                 font-size: 4rem;
             }
 
             h3{
                 margin-top: .8rem;
                 font-size: 2.1rem;
-                color: $verde-claro;
+                color: #444444;
                 font-family: 'Roboto', sans-serif;
             }
 
@@ -292,7 +293,8 @@ body{
                 width: 100%;
                 margin-top: .6rem;
                 font-size: 1.5rem;
-                color: $verde;
+                color: #444444;
+                line-height: 2rem;
             }
         }
     }
@@ -308,14 +310,19 @@ body{
         text-align: center;
 
         .texto h2{
-            margin: 2rem 0 1rem 0;
-            color: $verde;
+            margin: 2rem 0 0.5rem 0;
+            color: $rosado;
             // font-family: 'Roboto', sans-serif;
             font-size: 2.8rem;
             // font-family: 'Crete Round', serif;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
-            // letter-spacing: 1px;
+            letter-spacing: 5px;
+        }
+
+        i{
+            font-size: 4rem;
+            color: $rosado;
         }
         
     }
@@ -347,7 +354,7 @@ body{
                 font-size: 2rem;
                 font-weight: 300;
                 line-height: 3rem;
-                color: $verde-textos;
+                color: $rosado-textos;
             }
         }
 
@@ -393,7 +400,7 @@ body{
                 font-weight: 300;
                 line-height: 3rem;
                 margin-top: 0.5rem;
-                color: $verde-textos;
+                color: $rosado-textos;
             }
         }
     }
@@ -408,7 +415,7 @@ body{
 
         .texto h2{
             margin: 2rem 0 1rem 0;
-            color: $verde;
+            color: $rosado;
             // font-family: 'Roboto', sans-serif;
             font-size: 2.8rem;
             // font-family: 'Crete Round', serif;
@@ -454,7 +461,7 @@ body{
         h3{
             font-size: 1.8rem;
             margin-bottom: 1rem;
-            color: $verde;
+            color: $rosado;
             font-weight: 500;
         }
 
@@ -534,7 +541,7 @@ html .img__item:hover .container__item__hover{
 
         .texto h2{
             margin: 0rem 0 1.5rem 0;
-            color: $verde;
+            color: $rosado;
             // font-family: 'Roboto', sans-serif;
             font-size: 2.8rem;
             // font-family: 'Crete Round', serif;
@@ -584,7 +591,7 @@ html .img__item:hover .container__item__hover{
                 cursor: pointer;
 
                 &:hover{
-                    background: $verde;
+                    background: $rosado;
                 }
                 
                 h3{
@@ -615,7 +622,7 @@ html .img__item:hover .container__item__hover{
 
         .texto h2{
             margin: 2rem 0 1rem 0;
-            color: $verde;
+            color: $rosado;
             // font-family: 'Roboto', sans-serif;
             font-size: 2.8rem;
             // font-family: 'Crete Round', serif;
@@ -672,7 +679,7 @@ html .img__item:hover .container__item__hover{
 
             a{
                 font-size: 2.2rem;
-                color: $verde-claro;
+                color: $rosado-claro;
                 letter-spacing: 0.1rem;
 
                 &:hover{
@@ -769,7 +776,7 @@ html .img__item:hover .container__item__hover{
     margin: 3rem 0 0 0;
     
     hr{
-        border: 1px solid $verde;
+        border: 1px solid $rosado;
         width: 100%;
         margin: .5rem 0 1rem;
       }
@@ -783,7 +790,7 @@ html .img__item:hover .container__item__hover{
         h3{
             font-size: 2.5rem;
             font-family: 'Poppins', sans-serif;
-            color: $verde;
+            color: $rosado;
             font-weight: 300;
         }
 
@@ -803,7 +810,7 @@ html .img__item:hover .container__item__hover{
         h3{
             font-size: 2.5rem;
             font-family: 'Poppins', sans-serif;
-            color: $verde;
+            color: $rosado;
             font-weight: 300;
         }
 
@@ -812,7 +819,7 @@ html .img__item:hover .container__item__hover{
             margin-bottom: 1.5rem;
 
             &:hover{
-                color:$verde;
+                color:$rosado;
             }
         }
     }
@@ -826,7 +833,7 @@ html .img__item:hover .container__item__hover{
         h3{
             font-size: 2.5rem;
             font-family: 'Poppins', sans-serif;
-            color: $verde;
+            color: $rosado;
             font-weight: 300;
         }
 
@@ -845,7 +852,7 @@ html .img__item:hover .container__item__hover{
         h3{
             font-size: 2.5rem;
             font-family: 'Poppins', sans-serif;
-            color: $verde;
+            color: $rosado;
             font-weight: 300;
         }
 
@@ -854,7 +861,7 @@ html .img__item:hover .container__item__hover{
             margin-bottom: 1.5rem;
 
             &:hover{
-                color: $verde;
+                color: $rosado;
             }
         }
     }
@@ -867,7 +874,7 @@ body .copy{
     text-align: center;
     background: #f2eff5;
     width: 100%;
-    color: $verde;
+    color: $rosado;
 
     span{
         font-size: 1.7rem;
@@ -887,7 +894,7 @@ body .copy{
 
         .texto h2{
             margin: 2rem 0 1rem 0;
-            color: $verde;
+            color: $rosado;
             // font-family: 'Roboto', sans-serif;
             font-size: 2.8rem;
             // font-family: 'Crete Round', serif;
@@ -911,13 +918,13 @@ body .copy{
             h3{
                 font-size: 2.4rem;
                 margin-bottom: .5rem;
-                color: $verde;
+                color: $rosado;
             }
 
             span{
                 margin-top: .5rem;
                 font-size: 1.9rem;
-                color: $verde;
+                color: $rosado;
             }
         }
 
@@ -928,13 +935,13 @@ body .copy{
             h3{
                 font-size: 2.4rem;
                 margin-bottom: .5rem;
-                color: $verde;
+                color: $rosado;
             }
 
             span{
                 margin-top: .5rem;
                 font-size: 1.9rem;
-                color: $verde;
+                color: $rosado;
             }
         }
 
@@ -950,13 +957,13 @@ body .copy{
         h3{
             font-size: 2.4rem;
             margin-bottom: .5rem;
-            color: $verde;
+            color: $rosado;
         }
 
         span{
             margin-top: .5rem;
             font-size: 1.9rem;
-            color: $verde;
+            color: $rosado;
             width: 65%;
             margin: 0 auto;
         }
@@ -1018,7 +1025,7 @@ body .copy{
             p{
                 font-size:2.3rem;
                 color: #444444;
-                border-bottom: 1.2px solid $verde;
+                border-bottom: 1.2px solid $rosado;
                 margin-bottom:3rem ;
                 padding: 1rem 0;
                 font-weight: 500;
@@ -1434,7 +1441,7 @@ body .copy{
     }
 
     // .menu__item--show{
-    //     background-color: $verde;
+    //     background-color: $rosado;
     // }
 
     .menu__links{
