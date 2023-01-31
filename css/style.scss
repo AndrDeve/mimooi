@@ -546,14 +546,19 @@ html .img__item:hover .container__item__hover{
         text-align: center;
 
         .texto h2{
-            margin: 0rem 0 1.5rem 0;
+            margin: 2rem 0 0.5rem 0;
             color: $rosado;
             // font-family: 'Roboto', sans-serif;
-            font-size: 2.8rem;
+            font-size: 2.7rem;
             // font-family: 'Crete Round', serif;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
-            // letter-spacing: 1px;
+            letter-spacing: 2px;
+        }
+
+        i{
+            font-size: 4rem;
+            color: $rosado;
         }
         
     }
@@ -561,11 +566,11 @@ html .img__item:hover .container__item__hover{
     .categoria{
         padding: 0 6%;
 
-        .contenedor-categoria{
-            display: flex;
-            justify-content: space-around;
-            margin: 2rem 0 3.5rem 0;
-        }
+        // .contenedor-categoria{
+        //     display: flex;
+        //     justify-content: space-around;
+        //     margin: 2rem 0 3.5rem 0;
+        // }
 
         .contenedor-categoria1{
             display: flex;
@@ -575,6 +580,7 @@ html .img__item:hover .container__item__hover{
 
         .item-categoria{
             position: relative;
+            margin-bottom: 2.5rem;
 
             img{
                 height: 25rem;
@@ -585,8 +591,8 @@ html .img__item:hover .container__item__hover{
             }
 
             .img{
-                height:25rem;
-                width:50rem;
+                height:22rem;
+                width:37rem;
             }
 
             .texto-categoria{
@@ -602,17 +608,12 @@ html .img__item:hover .container__item__hover{
                 
                 h3{
                     color: #ffffff; 
-                    background: rgba(5, 83, 85, 50%);
+                    background: rgba(115, 38, 107, 50%);
                     padding: 1.8rem 3rem;
                     font-size: 1.7rem;
                     letter-spacing: .5rem;
                     font-weight: 500;
                     border: 1px solid #ffffff;
-                    text-align: center;
-
-                    &:hover{
-                        font-size: 1.8rem;
-                    }
                 }
             }
         }
