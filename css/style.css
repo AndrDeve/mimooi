@@ -361,11 +361,16 @@ body {
   text-align: center;
 }
 .titulos2 .contenedor-titulos .texto h2 {
-  margin: 2rem 0 1rem 0;
+  margin: 1rem 0 0.5rem 0;
   color: #a44891;
   font-size: 2.8rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  letter-spacing: 5px;
+}
+.titulos2 .contenedor-titulos i {
+  font-size: 4rem;
+  color: #a44891;
 }
 
 .swiper2 {
