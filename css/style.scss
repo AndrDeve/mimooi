@@ -628,20 +628,25 @@ html .img__item:hover .container__item__hover{
         text-align: center;
 
         .texto h2{
-            margin: 2rem 0 1rem 0;
+            margin: 2.5rem 0 0.5rem 0;
             color: $rosado;
             // font-family: 'Roboto', sans-serif;
-            font-size: 2.8rem;
+            font-size: 2.7rem;
             // font-family: 'Crete Round', serif;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
-            // letter-spacing: 1px;
-        }   
+            letter-spacing: 2px;
+        }
+
+        i{
+            font-size: 4rem;
+            color: $rosado;
+        }
+        
     }
 }
 
 .titulos4{
-    padding: 0 6%;
 
     .link-instagram{
         display: flex;
@@ -649,9 +654,9 @@ html .img__item:hover .container__item__hover{
         font-size: 2.8rem;
         color: $dorado;
         margin: .5rem 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lobster', cursive;
         font-weight: 300;
-        // letter-spacing: 3px;
+        letter-spacing: 3px;
 
         &:hover{
             transform: scale(1.05);
@@ -659,75 +664,37 @@ html .img__item:hover .container__item__hover{
     }
 
     .contenedor-siguenos{
+        margin-top: 3rem;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        flex-wrap: wrap;
 
-        .items-siguenos{
-            margin: 1rem 0 3rem 0;
-            display: flex;
+        .imagenes-siguenos{
+            margin: 0 auto;
             align-items: center;
 
-            span{
-                font-size: 3.5rem;
+            position: relative;
+            overflow: hidden;
+
+            &:hover{
+                transform: scale(1.01);
             }
 
-            .bxl-instagram{
-                color: rgb(164, 57, 30);
+            .projects__img{
+                object-fit:cover;
+                border-radius: 3px;
+                cursor: pointer;
+                overflow: hidden;
             }
 
-            .bxl-facebook{
-                color: rgb(9, 9, 197);
-            }
-
-            .bxl-whatsapp{
-                color: rgb(25, 147, 25);
-            }
-
-            a{
-                font-size: 2.2rem;
-                color: $rosado-claro;
-                letter-spacing: 0.1rem;
-
-                &:hover{
-                    transform: scale(1.01);
-                }
+            img{
+                height: 40rem;
+                width: 35rem;
+                object-fit: cover;
+                margin-bottom: 3rem;
             }
         }
     }
-
-    // .contenedor-siguenos{
-    //     margin-top: 3rem;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     flex-wrap: wrap;
-
-    //     .imagenes-siguenos{
-    //         margin: 0 auto;
-    //         align-items: center;
-
-    //         position: relative;
-    //         overflow: hidden;
-
-    //         &:hover{
-    //             transform: scale(1.02);
-    //         }
-
-    //         .projects__img{
-    //             object-fit:cover;
-    //             border-radius: 3px;
-    //             cursor: pointer;
-    //             overflow: hidden;
-    //         }
-
-    //         img{
-    //             height: 40rem;
-    //             width: 35rem;
-    //             object-fit: cover;
-    //             margin-bottom: 3rem;
-    //         }
-    //     }
-    // }
 }
 
 
