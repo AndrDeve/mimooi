@@ -643,7 +643,7 @@ html .img__item:hover .container__item__hover {
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   color: #a44891;
-  font-weight: 300;
+  font-weight: 400;
 }
 .footer .container-footer .logo p {
   font-size: 1.6rem;
@@ -660,7 +660,7 @@ html .img__item:hover .container__item__hover {
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   color: #a44891;
-  font-weight: 300;
+  font-weight: 400;
 }
 .footer .container-footer .links a {
   color: #333333;
@@ -679,7 +679,7 @@ html .img__item:hover .container__item__hover {
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   color: #a44891;
-  font-weight: 300;
+  font-weight: 400;
 }
 .footer .container-footer .horarios span {
   color: #333333;
@@ -695,7 +695,7 @@ html .img__item:hover .container__item__hover {
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
   color: #a44891;
-  font-weight: 300;
+  font-weight: 400;
 }
 .footer .container-footer .contactanos a {
   color: #333333;
@@ -710,7 +710,7 @@ body .copy {
   text-align: center;
   background: #f2eff5;
   width: 100%;
-  color: #a44891;
+  color: #444444;
 }
 body .copy span {
   font-size: 1.7rem;
