@@ -587,7 +587,7 @@ html .img__item:hover .container__item__hover{
                 width: 50rem;
                 object-fit: cover;
                 border-radius: .5rem;
-                border: 3px solid rgba(192, 16, 157, 0.2) ;
+                border: 2px solid rgba(192, 16, 157, 0.2) ;
             }
 
             .img{
@@ -1558,7 +1558,7 @@ body .copy{
 
       .titulos4 .contenedor-siguenos{
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
 
         .items-siguenos{
             margin: 0.8rem 0;
@@ -1628,6 +1628,11 @@ body .copy{
         width: 18rem;
         height: 18rem;
       }  
+
+      .titulos4 .contenedor-siguenos .imagenes-siguenos img{
+        height: 21rem;
+        width: 21rem;
+      } 
 
       .titulos .container-mision-vision .item-mision-vision{
         width: 48%;

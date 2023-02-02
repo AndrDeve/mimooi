@@ -495,7 +495,7 @@ html .img__item:hover .container__item__hover {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
-  border: 3px solid rgba(192, 16, 157, 0.2);
+  border: 2px solid rgba(192, 16, 157, 0.2);
 }
 .titulos3 .categoria .item-categoria .img {
   height: 22rem;
@@ -1225,7 +1225,6 @@ body .copy span .span {
   }
   .titulos4 .contenedor-siguenos {
     display: flex;
-    flex-direction: column;
   }
   .titulos4 .contenedor-siguenos .items-siguenos {
     margin: 0.8rem 0;
@@ -1278,6 +1277,10 @@ body .copy span .span {
   .swiper-slide img {
     width: 18rem;
     height: 18rem;
+  }
+  .titulos4 .contenedor-siguenos .imagenes-siguenos img {
+    height: 21rem;
+    width: 21rem;
   }
   .titulos .container-mision-vision .item-mision-vision {
     width: 48%;
