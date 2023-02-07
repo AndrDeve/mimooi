@@ -12,7 +12,7 @@
 }
 
 //variables colores
-$dorado:#c39e2e;
+$dorado:#6e1366;
 $rosado:#a44891;
 $rosado-claro:#54582f;
 $rosado-textos:#2d5a38;
@@ -89,9 +89,19 @@ body{
         
         a{
             color: $rosado;
+            margin: 0 -0.1rem;
 
             &:hover{
                 transform: scale(1.05);
+             }
+
+             img{
+                height:2rem;
+                width:2rem;
+
+                &:hover{
+                    transform: scale(1.05);
+                 }
              }
         }
     }
@@ -651,12 +661,12 @@ html .img__item:hover .container__item__hover{
     .link-instagram{
         display: flex;
         justify-content: center;
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         color: $dorado;
         margin: .5rem 0;
-        font-family: 'Lobster', cursive;
-        font-weight: 300;
-        letter-spacing: 3px;
+        // font-family: 'Lobster', cursive;
+        font-weight: 500;
+        letter-spacing: 1px;
 
         &:hover{
             transform: scale(1.05);

@@ -54,7 +54,7 @@ body {
   z-index: 4000;
   background-color: #ffffff;
   color: #a44891;
-  border-bottom: 1px solid #c39e2e;
+  border-bottom: 1px solid #6e1366;
 }
 
 .menu__container {
@@ -77,8 +77,16 @@ body {
 }
 .menu__container .logos-redes-sociales a {
   color: #a44891;
+  margin: 0 -0.1rem;
 }
 .menu__container .logos-redes-sociales a:hover {
+  transform: scale(1.05);
+}
+.menu__container .logos-redes-sociales a img {
+  height: 2rem;
+  width: 2rem;
+}
+.menu__container .logos-redes-sociales a img:hover {
   transform: scale(1.05);
 }
 
@@ -343,7 +351,7 @@ body {
 }
 .titulos .container-mision-vision .item-mision-vision h4 {
   font-size: 2.2rem;
-  color: #c39e2e;
+  color: #6e1366;
   font-weight: 500;
 }
 .titulos .container-mision-vision .item-mision-vision p {
@@ -401,7 +409,7 @@ body {
   font-weight: 500;
 }
 .swiper-slide .img__item .contenido-img-item span {
-  color: #c39e2e;
+  color: #6e1366;
   font-size: 2rem;
   font-style: italic;
 }
@@ -540,12 +548,11 @@ html .img__item:hover .container__item__hover {
 .titulos4 .link-instagram {
   display: flex;
   justify-content: center;
-  font-size: 2.8rem;
-  color: #c39e2e;
+  font-size: 2.5rem;
+  color: #6e1366;
   margin: 0.5rem 0;
-  font-family: "Lobster", cursive;
-  font-weight: 300;
-  letter-spacing: 3px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 .titulos4 .link-instagram:hover {
   transform: scale(1.05);
@@ -620,7 +627,7 @@ html .img__item:hover .container__item__hover {
   padding: 2rem 6% 0 6%;
   width: 100%;
   background: #F8F2FC;
-  border-top: 1px solid #c39e2e;
+  border-top: 1px solid #6e1366;
 }
 .footer .container-footer {
   display: flex;
@@ -716,7 +723,7 @@ body .copy span {
   font-size: 1.7rem;
 }
 body .copy span .span {
-  color: #c39e2e;
+  color: #6e1366;
 }
 
 .contactos {
@@ -848,7 +855,7 @@ body .copy span .span {
   color: #000000;
 }
 .titulos-catalogo .container-catalogo .category_list .ct_item-active {
-  color: #c39e2e;
+  color: #6e1366;
   font-size: 1.7rem;
 }
 .titulos-catalogo .container-catalogo .products-list {
@@ -879,7 +886,7 @@ body .copy span .span {
   font-size: 2.2rem;
 }
 .titulos-catalogo .container-catalogo .products-list .product-item .span {
-  color: #c39e2e;
+  color: #6e1366;
   font-size: 1.9rem;
   font-style: italic;
   letter-spacing: 0.1rem;
@@ -955,7 +962,7 @@ body .copy span .span {
   font-size: 2.5rem;
 }
 .productos .contenedor-productos .items-imagenes .contenedor .span {
-  color: #c39e2e;
+  color: #6e1366;
   font-size: 2.2rem;
   font-style: italic;
   letter-spacing: 0.1rem;
@@ -1026,7 +1033,7 @@ body .copy span .span {
     font-size: 2.3rem;
   }
   .container-catalogo .wrap .store-wrapper .category_list a {
-    border-bottom: 0.1rem solid #c39e2e;
+    border-bottom: 0.1rem solid #6e1366;
     padding: 1rem 0;
     font-size: 2rem;
   }
@@ -1152,7 +1159,7 @@ body .copy span .span {
   .menu__link--inside {
     width: 90%;
     margin-left: 3rem;
-    border-left: 1px solid #c39e2e;
+    border-left: 1px solid #6e1366;
     font-size: 1.8rem;
   }
   .contactos .datos-contactos {
