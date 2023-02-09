@@ -411,7 +411,7 @@ body {
 .swiper-slide .img__item .contenido-img-item span {
   color: #6e1366;
   font-size: 2rem;
-  font-style: italic;
+  font-weight: 700;
 }
 .swiper-slide .container__item__hover {
   padding: 0 6%;
@@ -957,8 +957,7 @@ body .copy span .span {
 }
 .productos .contenedor-productos .items-imagenes .contenedor .textos span {
   font-size: 1.5rem;
-  font-style: italic;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
 }
 .productos .contenedor-productos .items-imagenes .contenedor .textos p {
   font-size: 2.1rem;
@@ -970,7 +969,7 @@ body .copy span .span {
 .productos .contenedor-productos .items-imagenes .contenedor .span {
   color: #6e1366;
   font-size: 2.2rem;
-  font-style: italic;
+  font-weight: 700;
   letter-spacing: 0.1rem;
 }
 .productos .contenedor-productos .items-imagenes .contenedor button {
