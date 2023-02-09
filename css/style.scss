@@ -667,11 +667,12 @@ html .img__item:hover .container__item__hover{
         display: flex;
         justify-content: center;
         font-size: 2.5rem;
-        color: $dorado;
+        color: $rosado;
         margin: .5rem 0;
         // font-family: 'Lobster', cursive;
-        font-weight: 500;
-        letter-spacing: 1px;
+        font-family: 'Emilys Candy', cursive;
+        font-weight: 700;
+        letter-spacing: 3px;
 
         &:hover{
             transform: scale(1.05);
