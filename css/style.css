@@ -1380,7 +1380,7 @@ body .copy span .span {
     font-size: 1.7rem;
   }
   .titulos .container-nosotros img {
-    margin-top: 2rem;
+    margin-top: -1rem;
   }
   .titulos .container-nosotros .textos-nosotros p {
     width: 90%;
