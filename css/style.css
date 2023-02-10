@@ -54,7 +54,7 @@ body {
   z-index: 4000;
   background-color: #ffffff;
   color: #a44891;
-  border-bottom: 1px solid #6e1366;
+  border-bottom: 1px solid #FF0080;
 }
 
 .menu__container {
@@ -351,7 +351,7 @@ body {
 }
 .titulos .container-mision-vision .item-mision-vision h4 {
   font-size: 2.2rem;
-  color: #6e1366;
+  color: #FF0080;
   font-weight: 500;
 }
 .titulos .container-mision-vision .item-mision-vision p {
@@ -409,9 +409,9 @@ body {
   font-weight: 500;
 }
 .swiper-slide .img__item .contenido-img-item span {
-  color: #6e1366;
+  color: #FF0080;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 .swiper-slide .container__item__hover {
   padding: 0 6%;
@@ -549,7 +549,7 @@ html .img__item:hover .container__item__hover {
   display: flex;
   justify-content: center;
   font-size: 2.5rem;
-  color: #a44891;
+  color: #FF0080;
   margin: 0.5rem 0;
   font-family: "Emilys Candy", cursive;
   font-weight: 700;
@@ -628,7 +628,7 @@ html .img__item:hover .container__item__hover {
   padding: 2rem 6% 0 6%;
   width: 100%;
   background: #F8F2FC;
-  border-top: 1px solid #6e1366;
+  border-top: 1px solid #FF0080;
 }
 .footer .container-footer {
   display: flex;
@@ -728,7 +728,7 @@ body .copy span {
   font-size: 1.7rem;
 }
 body .copy span .span {
-  color: #6e1366;
+  color: #FF0080;
 }
 
 .contactos {
@@ -861,7 +861,7 @@ body .copy span .span {
   color: #000000;
 }
 .titulos-catalogo .container-catalogo .category_list .ct_item-active {
-  color: #6e1366;
+  color: #FF0080;
   font-size: 1.7rem;
 }
 .titulos-catalogo .container-catalogo .products-list {
@@ -892,7 +892,7 @@ body .copy span .span {
   font-size: 2.2rem;
 }
 .titulos-catalogo .container-catalogo .products-list .product-item .span {
-  color: #6e1366;
+  color: #FF0080;
   font-size: 1.9rem;
   font-style: italic;
   letter-spacing: 0.1rem;
@@ -967,7 +967,7 @@ body .copy span .span {
   font-size: 2.5rem;
 }
 .productos .contenedor-productos .items-imagenes .contenedor .span {
-  color: #6e1366;
+  color: #FF0080;
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
@@ -1038,7 +1038,7 @@ body .copy span .span {
     font-size: 2.3rem;
   }
   .container-catalogo .wrap .store-wrapper .category_list a {
-    border-bottom: 0.1rem solid #6e1366;
+    border-bottom: 0.1rem solid #FF0080;
     padding: 1rem 0;
     font-size: 2rem;
   }
@@ -1163,7 +1163,7 @@ body .copy span .span {
   .menu__link--inside {
     width: 90%;
     margin-left: 3rem;
-    border-left: 1px solid #6e1366;
+    border-left: 1px solid #FF0080;
     font-size: 1.8rem;
   }
   .contactos .datos-contactos {

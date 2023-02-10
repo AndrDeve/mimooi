@@ -13,7 +13,8 @@
 }
 
 //variables colores
-$dorado:#6e1366;
+$dorado:#FF0080;
+// $dorado:#d87065;
 $rosado:#a44891;
 $rosado-claro:#54582f;
 $rosado-textos:#2d5a38;
@@ -488,7 +489,7 @@ body{
         span{
             color: $dorado;
             font-size: 2rem;
-            font-weight:700;
+            font-weight:500;
             // font-style: italic;
         }
     }
@@ -669,7 +670,7 @@ html .img__item:hover .container__item__hover{
         display: flex;
         justify-content: center;
         font-size: 2.5rem;
-        color: $rosado;
+        color: $dorado;
         margin: .5rem 0;
         // font-family: 'Lobster', cursive;
         font-family: 'Emilys Candy', cursive;
