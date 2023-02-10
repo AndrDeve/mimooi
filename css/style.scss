@@ -669,13 +669,12 @@ html .img__item:hover .container__item__hover{
     .link-instagram{
         display: flex;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         color: $dorado;
         margin: .5rem 0;
-        // font-family: 'Lobster', cursive;
-        font-family: 'Emilys Candy', cursive;
-        font-weight: 700;
-        letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
 
         &:hover{
             transform: scale(1.05);
