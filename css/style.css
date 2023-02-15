@@ -657,6 +657,7 @@ html .img__item:hover .container__item__hover {
   font-size: 1.6rem;
   color: #333333;
   margin-bottom: 1.5rem;
+  line-height: 3rem;
 }
 .footer .container-footer .links {
   display: flex;
@@ -727,7 +728,7 @@ body .copy span {
   font-size: 1.7rem;
 }
 body .copy span .span {
-  color: #e773af;
+  color: #a44891;
 }
 
 .contactos {
