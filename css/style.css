@@ -1109,7 +1109,19 @@ body .copy span .span {
     width: 100%;
   }
 }
+@media (max-width: 860px) {
+  header .menu .menu__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+}
 @media (max-width: 800px) {
+  header .menu .menu__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+  }
   .menu__container .menu__hamburguer {
     display: flex;
   }
