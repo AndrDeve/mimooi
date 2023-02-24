@@ -241,8 +241,8 @@ body {
 }
 
 .informacion {
-  padding: 0 6%;
-  margin-top: 5rem;
+  padding: 0 4%;
+  margin: 5rem 0;
 }
 .informacion .container-informacion {
   display: flex;
@@ -1193,7 +1193,7 @@ body .copy span .span {
     width: 32%;
   }
   .titulos {
-    padding: 1rem 0;
+    padding: 3rem 0;
   }
   .titulos .container-nosotros .textos-nosotros p {
     width: 90%;
