@@ -242,7 +242,7 @@ body {
 
 .informacion {
   padding: 0 4%;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 .informacion .container-informacion {
   display: flex;
@@ -1116,6 +1116,15 @@ body .copy span .span {
     max-width: 1200px;
     padding: 0 1rem;
   }
+  body .informacion .container-informacion {
+    display: flex;
+    flex-direction: column;
+  }
+  body .informacion .container-informacion .informacion-item {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
 }
 @media (max-width: 800px) {
   header .menu .menu__container {
@@ -1226,15 +1235,6 @@ body .copy span .span {
   }
   .home .swiper-wrapper .slide .content {
     width: 90%;
-  }
-  .informacion .container-informacion {
-    display: flex;
-    flex-direction: column;
-  }
-  .informacion .container-informacion .informacion-item {
-    width: 100%;
-    margin-bottom: 2.5rem;
-    text-align: center;
   }
   .titulos .contenedor-titulos .texto h2 {
     margin: 0 0 0.5rem 0;
