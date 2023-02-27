@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimooi bisutería y accesorios</title>
+
+    <!-- animaciones css  -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- font awesome cdn link ICONOS DE HAMBURGUESA Y LA X  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+    <a href="https://api.whatsapp.com/send/?phone=%2B593967414431" class="btn-wsp" target="_blank">
+        <img src="img/Whatsapp_37229.ico" alt="">
+    </a>
+
+    <!-- inicio header -->
+    <header>
+        <nav class="menu">
+            <section class="menu__container">
+                <figure>
+                    <img class="logo" src="img/logo.png" alt="">
+                </figure>
+    
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="index.html" class="menu__link">Inicio</a>
+                    </li>
+        
+                    <li class="menu__item menu__item--show">
+                        <a href="#" class="menu__link">Catálogo <i class='menu__arrow bx bx-chevron-right'></i></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="aretes.html" class="menu__link menu__link--inside">Aretes</a>
+                            </li>
+        
+                            <li class="menu__inside">
+                                <a href="anillos.html" class="menu__link menu__link--inside">Anillos</a>
+                            </li>
+        
+                            <li class="menu__inside">
+                                <a href="piercing.html" class="menu__link menu__link--inside">Piercing</a>
+                            </li>
+    
+                            <li class="menu__inside">
+                                <a href="cadenas.html" class="menu__link menu__link--inside">Cadenas</a>
+                            </li>
+
+                            <li class="menu__inside">
+                                <a href="pulseras.html" class="menu__link menu__link--inside">Pulseras</a>
+                            </li>
+
+                            <li class="menu__inside">
+                                <a href="bandanas.html" class="menu__link menu__link--inside">Bandanas</a>
+                            </li>
+
+                            <li class="menu__inside">
+                                <a href="diademas.html" class="menu__link menu__link--inside">Diademas</a>
+                            </li>
+
+                            <li class="menu__inside">
+                                <a href="hairclips.html" class="menu__link menu__link--inside">Hairclips</a>
+                            </li>
+
+                            <li class="menu__inside">
+                                <a href="croptops.html" class="menu__link menu__link--inside">Croptops</a>
+                            </li>
+
+                            <li class="menu__inside">
+                                <a href="trepadores.html" class="menu__link menu__link--inside">Trepadores</a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="menu__item">
+                        <a href="#sobre-nosotros" class="menu__link">Nosotros</a>
+                    </li>
+        
+                    <li class="menu__item">
+                        <a href="contactos.html" class="menu__link">Contáctanos</a>
+                    </li>
+                </ul>
+    
+                <div class="menu__hamburguer">
+                    <i class='bx bx-menu menu__img'></i>
+                </div>
+    
+                <div class="logos-redes-sociales">
+                    <a href="https://www.facebook.com/mimooi.ecuador" class="bx bxl-facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/mimooi.ec/" class="bx bxl-instagram" target="_blank"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B593996397405" target="_blank" class="bx bxl-whatsapp"></a>
+                    <a href="https://t.me/mimooiecu" class="bx bxl-telegram" target="_blank"></a>
+                    <a href="https://www.tiktok.com/@mimooi.ec?_t=8VpQVIGgcgH&_r=1"><img src="img/tik-tok.svg" alt=""></a>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <!--final header-->
+
+    <section class="productos">
+        <div class="contenedor-productos titulos titulos-catalogo accesorios">
+            <div class="contenedor-titulos">
+                <div class="texto"><h2>Ortopédicos y topitos</h2></div>
+                <i class="bx bx-minus"></i>
+            </div>
+                <div class="items-imagenes">
+
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref1">ref:1</span>
+                            <p id="n1">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                    <span class="span" id="precio1">$5</span> <br>
+                    <button id="submit1">Comprar</button>
+                    </div>
+
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref2">ref:2</span>
+                            <p id="n2">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio2">$5</span> <br>
+                        <button id="submit2">Comprar</button>
+                    </div>
+
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref3">ref:3</span>
+                            <p id="n3">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio3">$5</span> <br>
+                        <button id="submit3">Comprar</button>
+                    </div>
+
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref4">ref:4</span>
+                            <p id="n4">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio4">$8</span> <br>
+                        <button id="submit4">Comprar</button>
+                    </div>
+
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref5">ref:5</span>
+                            <p id="n5">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio5">$8</span> <br>
+                        <button id="submit5">Comprar</button>
+                    </div>
+
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref6">ref:6</span>
+                            <p id="n6">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio6">$12</span> <br>
+                        <button id="submit6">Comprar</button>
+                    </div>
+
+                    
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref7">ref:7</span>
+                            <p id="n7">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio7">$10</span> <br>
+                        <button id="submit7">Comprar</button>
+                    </div>
+    
+                    <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/aretes.jpg" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref8">ref:8</span>
+                            <p id="n8">Trepadores</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio8">$10</span> <br>
+                        <button id="submit8">Comprar</button>
+                    </div>
+    
+                    <!-- <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/i2.png" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref1">ref:9</span>
+                            <p id="r1">Nombre del producto</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio1">$11.000</span> <br>
+                        <button id="submit1">Comprar</button>
+                    </div> -->
+    
+                    <!-- <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/i2.png" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref1">ref:10</span>
+                            <p id="r1">Nombre del producto</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio1">$11.000</span> <br>
+                        <button id="submit1">Comprar</button>
+                    </div> -->
+    
+                    <!-- <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/i2.png" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref1">ref:11</span>
+                            <p id="r1">Nombre del producto</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio1">$11.000</span> <br>
+                        <button id="submit1">Comprar</button>
+                    </div> -->
+    
+                    <!-- <div class="contenedor scroll-up">
+                        <figure>
+                            <img src="img/i2.png" class="img-welcome" alt="">
+                        </figure>
+                        <div class="textos">
+                            <span id="ref1">ref:12</span>
+                            <p id="r1">Nombre del producto</p>
+                            <i class='bx bx-minus'></i><br>
+                        </div>
+                        <span class="span" id="precio1">$11.000</span> <br>
+                        <button id="submit1">Comprar</button>
+                    </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- inicio footer -->
+    <footer class="footer">
+        <div class="container-footer scroll-up">
+            <div class="logo">
+                <h3>Mimooi</h3>
+                <hr>
+                <p>"No hay límites para lo que nosotras, como mujeres, podemos lograr" <br>- Michelle Obama</p>
+            </div>
+
+            <div class="links">
+                <h3>Enlaces</h3>
+                <hr>
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Quiénes Somos</a>
+                <a href="index.html">Catálogo</a>
+            </div>
+
+            <div class="horarios">
+                <h3>Horarios</h3>
+                <hr>
+                <span>Lunes a Sábado</span>
+                <span>9:00 - 19:00</span>
+                <!-- <span>Sábados</span>
+                <span>9:00 - 13:00</span> -->
+                <span>Quito - Ecuador</span>
+            </div>
+
+            <div class="contactanos">
+                <h3>Contactos</h3>
+                <hr>
+                <a href="https://api.whatsapp.com/send/?phone=%2B593996397405" target="_blank">WhatsApp</a>
+                <a href="https://www.facebook.com/mimooi.ecuador" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/mimooi.ec/" target="_blank">Instagram</a>
+                <a href="https://t.me/mimooiecu" target="_blank">Telegram</a>
+                <a href="https://www.tiktok.com/@mimooi.ec?_t=8VpQVIGgcgH&_r=1" target="_blank">Tik Tok</a>
+            </div>
+        </div>
+    </footer>
+    <!-- final footer -->
+
+    <div class="copy">
+        <span>Created By <span class="span">Andrés Rivera</span> | All Rights Reserved!</span>
+    </div>
+    
+    <script src="js/comprar-aretes.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/scrollreveal.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
