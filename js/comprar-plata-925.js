@@ -547,3 +547,253 @@ ${precioanp7}%0A%0A`;
 
 window.open(url);    
 });
+
+
+document.querySelector("#submitanp9").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refanp9 = document.querySelector("#refanp9").textContent;
+let anp9 = document.querySelector("#anp9").textContent;
+let precioanp9 = document.querySelector("#precioanp9").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refanp9}%0A%0A
+*Nombre del producto:*%0D
+${anp9}%0A%0A
+*Precio:*%0D
+${precioanp9}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitap2").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refap2 = document.querySelector("#refap2").textContent;
+let ap2 = document.querySelector("#ap2").textContent;
+let precioap2 = document.querySelector("#precioap2").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refap2}%0A%0A
+*Nombre del producto:*%0D
+${ap2}%0A%0A
+*Precio:*%0D
+${precioap2}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitap14").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refap14 = document.querySelector("#refap14").textContent;
+let ap14 = document.querySelector("#ap14").textContent;
+let precioap14 = document.querySelector("#precioap14").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refap14}%0A%0A
+*Nombre del producto:*%0D
+${ap14}%0A%0A
+*Precio:*%0D
+${precioap14}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitap8").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refap8 = document.querySelector("#refap8").textContent;
+let ap8 = document.querySelector("#ap8").textContent;
+let precioap8 = document.querySelector("#precioap8").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refap8}%0A%0A
+*Nombre del producto:*%0D
+${ap8}%0A%0A
+*Precio:*%0D
+${precioap8}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitcp1").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refcp1 = document.querySelector("#refcp1").textContent;
+let cp1 = document.querySelector("#cp1").textContent;
+let preciocp1 = document.querySelector("#preciocp1").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refcp1}%0A%0A
+*Nombre del producto:*%0D
+${cp1}%0A%0A
+*Precio:*%0D
+${preciocp1}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitsp4").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refsp4 = document.querySelector("#refsp4").textContent;
+let sp4 = document.querySelector("#sp4").textContent;
+let preciosp4 = document.querySelector("#preciosp4").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refsp4}%0A%0A
+*Nombre del producto:*%0D
+${sp4}%0A%0A
+*Precio:*%0D
+${preciosp4}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitanp3").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refanp3 = document.querySelector("#refanp3").textContent;
+let anp3 = document.querySelector("#anp3").textContent;
+let precioanp3 = document.querySelector("#precioanp3").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refanp3}%0A%0A
+*Nombre del producto:*%0D
+${anp3}%0A%0A
+*Precio:*%0D
+${precioanp3}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitanp2").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refanp2 = document.querySelector("#refanp2").textContent;
+let anp2 = document.querySelector("#anp2").textContent;
+let precioanp2 = document.querySelector("#precioanp2").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refanp2}%0A%0A
+*Nombre del producto:*%0D
+${anp2}%0A%0A
+*Precio:*%0D
+${precioanp2}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitanp4").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refanp4 = document.querySelector("#refanp4").textContent;
+let anp4 = document.querySelector("#anp4").textContent;
+let precioanp4 = document.querySelector("#precioanp4").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refanp4}%0A%0A
+*Nombre del producto:*%0D
+${anp4}%0A%0A
+*Precio:*%0D
+${precioanp4}%0A%0A`;
+
+window.open(url);    
+});
+
+
+document.querySelector("#submitanp8").addEventListener("click", e => {
+e.preventDefault();
+
+//INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
+let telefono = "573172171691";
+
+let refanp8 = document.querySelector("#refanp8").textContent;
+let anp8 = document.querySelector("#anp8").textContent;
+let precioanp8 = document.querySelector("#precioanp8").textContent;
+
+let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+*_Bienvenidos a Mimooi_*%0A%0A
+*Sección Plata 925*%0A%0A
+*Tu compra:*%0A%0A
+*Ref del producto:*%0D
+${refanp8}%0A%0A
+*Nombre del producto:*%0D
+${anp8}%0A%0A
+*Precio:*%0D
+${precioanp8}%0A%0A`;
+
+window.open(url);    
+});
